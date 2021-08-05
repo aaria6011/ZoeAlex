@@ -1,0 +1,105 @@
+/*  fonts 
+font-family: 'Great Vibes', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Mulish', sans-serif;*/  
+
+/*  colors 
+default text color: #444349 (grey)
+alternate text color: #d2ba87 (gold)
+header tagline and date color: hsla(0,0%,100%,.9);
+dark background: hsla(100,0%,0%,.6);
+link color: #bd806e
+link color on hover: #eda087
+footer background color: #606060 */
+
+/* == general styles ==*/
+* {
+  box-sizing: border-box;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*= vertikális ritmus / single-direction margin declaration ==*/
+h1,h2,h3,
+ul,ol,dd,img,
+p,table,hr,header,main {
+    margin-bottom: 2rem;
+}
+
+/* ==== HELPER COLORS FOR LAYOUT ==== */
+body {
+  background-color: bisque;
+}
+
+header{
+  background-color: darksalmon;
+}
+
+main {
+  background-color: cadetblue;
+}
+
+/* == base style ==*/
+body{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  font-family: 'Libre Baskerville', serif;
+  text color: #444349 (grey)
+}
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 6rem;
+  padding: 1rem;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p{
+  font-family: 'Mulish', sans-serif; 
+}
+
+img{
+  height: 5rem;
+  width: 5rem;
+}
+/*  fonts 
+font-family: 'Great Vibes', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Mulish', sans-serif;  
+background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center fixed cover;*/
+
+/*== header ==*/
+
+.cover {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center top scroll;
+  display: block;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+.headline-wrapper {
+  background: hsla(100,0%,0%,.6);
+  vertical-align:sub;
+}
+.text-wrapper {
+  margin: 0 auto;
+  padding: .625rem;
+  
+ 
+}
+#tagline {
+  color:beige;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+#headline {
+  font-family: 'Great Vibes', cursive;
+  font-size: 6rem;
+  color: #d2ba87;
+}
+
+#date {
+  color:beige;
+}
