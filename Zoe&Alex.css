@@ -67,12 +67,13 @@ img{
 font-family: 'Great Vibes', cursive;
 font-family: 'Libre Baskerville', serif;
 font-family: 'Mulish', sans-serif;  
-background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center fixed cover;*/
+background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center fixed cover;
+background from imgur https://i.imgur.com/mOP1Szz.jpeg*/
 
 /*== header ==*/
 
 .cover {
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center top scroll;
+  background: url('https://i.imgur.com/mOP1Szz.jpeg.jpg') no-repeat center top scroll;
   display: block;
   text-align: center;
   height: 100vh;
